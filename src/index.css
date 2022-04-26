@@ -34,6 +34,16 @@ code {
   padding: 10px;
 }
 
+.new-user button {
+  padding: 10px 20px;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  font: bolder;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 .input-parent {
   margin-bottom: 10px;
   height: 60px;

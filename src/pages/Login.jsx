@@ -105,7 +105,7 @@ const Login = () => {
               <small className="small">Password is wrong</small>
             )}
           </div>
-          <button type="submit">Login</button>
+          <button type="submit" className="btn">Login</button>
         </form>
       </div>
     </div>
