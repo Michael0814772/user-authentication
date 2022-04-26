@@ -35,7 +35,7 @@ const Login = () => {
   //Logic for logging in
   const handleSubmit = (e) => {
     e.preventDefault();
-    const emailExist = data.find((f) => f.email === email);
+    const emailExist = data.find((f) => f.email === email.toLowerCase());
     const passwordExist = data.find((f) => f.password === password);
     const emailNotExisting = data.find((n) => n.email !== email.toLowerCase());
     const passwordNotExisting = data.find((p) => p.password !== password);
