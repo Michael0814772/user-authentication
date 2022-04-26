@@ -60,6 +60,16 @@ const Login = () => {
       setTimeout(() => {
         setErrorPassword(false);
       }, 3000);
+    } else if (emailNotExisting) {
+      setErrorEmail(true);
+      setTimeout(() => {
+        setErrorEmail(false);
+      }, 3000);
+    } else if (passwordNotExisting) {
+      setErrorPassword(true);
+      setTimeout(() => {
+        setErrorPassword(false);
+      }, 3000);
     }
   };
 
